@@ -1,0 +1,19 @@
+# Your own settings (copy config.example.json to make one)
+config.json
+
+# Made while running
+logs/
+backup/
+*.log
+*.tmp
+*.broken-*
+
+# Python caches
+__pycache__/
+*.pyc
+
+# Build output
+build/
+dist/
+*.exe
+*.zip

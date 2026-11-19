@@ -1,0 +1,7 @@
+{
+  "apps_dir": "%USERPROFILE%\\RepoForgeApps",
+  "model": "sonnet",
+  "desktop_shortcuts": true,
+  "launch_after_install": true,
+  "max_nudges": 3
+}
