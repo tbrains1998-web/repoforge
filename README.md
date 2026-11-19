@@ -7,6 +7,13 @@ command-line tools. It can also update and uninstall what it installed.
 The build itself is done by the Claude Code CLI: an AI agent reads the project's build notes and CI files,
 installs the tools it needs with winget, builds the program and tells RepoForge where it is.
 
+## What it looks like
+
+![The RepoForge window: a GitHub link in the box at the top with the Install button, an empty log area, and a list of three installed apps with their version, how they were installed and when](docs/screenshots/main-window.png)
+
+*Paste a GitHub link at the top and press Install. The list at the bottom shows what is installed; the buttons open,
+update or uninstall the selected app. (Example data: the apps shown are made up.)*
+
 ## Read this first: safety
 
 - **The AI agent runs with no limits.** RepoForge starts the Claude Code CLI with
